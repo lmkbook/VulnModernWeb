@@ -17,6 +17,26 @@ Los usuarios son invitados a detectar e intentar explotar fallos de seguridad pr
 Está especialmente pensado para fines educativos, pruebas de herramientas (propias o de terceros) y prácticas de hacking ético.
 
 
+🎯 Objetivo General
+
+El objetivo principal de VulnModernWeb (VMW) es proporcionar una plataforma interactiva y educativa para aprender sobre las vulnerabilidades modernas en aplicaciones web.
+Este entorno está diseñado no solo para que los usuarios puedan identificar, analizar y explotar fallos de seguridad, sino también para entender cómo las malas prácticas de desarrollo pueden conducir a vulnerabilidades críticas.
+
+Este proyecto tiene como finalidad:
+
+* Mejorar las habilidades de análisis y explotación de seguridad web.
+
+* Fomentar el aprendizaje práctico sobre vulnerabilidades comunes como inyección SQL, XSS, CSRF, entre otras.
+
+* Simular escenarios reales con tecnologías modernas como microservicios, APIs REST, fetch, y diferentes lenguajes como Python, PHP y JavaScript.
+
+* Exponer malas prácticas comunes cometidas por desarrolladores al momento de construir aplicaciones web.
+
+* Invitar a reflexionar y adoptar mejores prácticas de desarrollo seguro, promoviendo el diseño de aplicaciones más robustas, seguras y profesionales.
+
+* Impulsar el hacking ético, mediante pruebas realizadas en un entorno controlado y sin afectar a terceros.
+
+
 🛠️ Tecnologías Utilizadas
 
 Este proyecto hace uso de las siguientes tecnologías:
