@@ -69,12 +69,20 @@ Esa seccion esta pendiende se rellenara a lo ultimo
 **⚠️ Aviso Legal**
 
 Este proyecto está destinado exclusivamente a fines educativos y de investigación en entornos controlados.
-El creador no se hace responsable del uso indebido de este software fuera de dichos fines.
+El propósito de VulnModernWeb (VMW) es promover el aprendizaje responsable y ético sobre seguridad informática.
 
-Al utilizar este repositorio, usted acepta hacerlo conforme a principios de ética y responsabilidad.
-No está permitido atacar sistemas que no sean de su propiedad o sin autorización explícita.
+Al utilizar este repositorio, usted acepta hacerlo conforme a principios de ética, responsabilidad y legalidad.
+No está permitido utilizar este software para atacar, comprometer o interferir con sistemas de terceros sin su consentimiento explícito.
 
 **Advertencia:**
-Esta aplicación contiene vulnerabilidades intencionales. **No debe instalarse, ejecutarse ni exponerse en entornos de producción**, 
-ya que representa un riesgo real de seguridad.
-Úselo únicamente en máquinas locales o entornos de laboratorio aislados.
+Esta aplicación contiene vulnerabilidades intencionales.
+**No debe instalarse, ejecutarse ni exponerse en entornos de producción**, ya que representa un riesgo real de seguridad.
+Úselo únicamente en máquinas locales o entornos de laboratorio aislados y bajo su propia responsabilidad.
+
+
+**❌ Exención de Responsabilidad**
+
+El software y la documentación de este repositorio se proporcionan "tal cual", sin garantía de ningún tipo, expresa o implícita, incluyendo pero no limitado a garantías de comercialización o adecuación para un propósito particular.
+**El autor y los colaboradores de este proyecto no serán responsables en ningún caso por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o mal uso de este software.**
+
+El uso de este repositorio implica que usted acepta esta exención de responsabilidad y libera al autor de cualquier obligación legal derivada de su uso..
