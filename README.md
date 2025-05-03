@@ -16,6 +16,7 @@ El proyecto simula un entorno realista utilizando tecnologías actuales como fet
 Los usuarios son invitados a detectar e intentar explotar fallos de seguridad presentes intencionalmente en el sistema.
 Está especialmente pensado para fines educativos, pruebas de herramientas (propias o de terceros) y prácticas de hacking ético.
 
+
 🛠️ Tecnologías Utilizadas
 
 Este proyecto hace uso de las siguientes tecnologías:
@@ -27,6 +28,23 @@ JavaScript: Se utiliza en el frontend para la manipulación del DOM y para reali
 PHP: Utilizado para la gestión de la conexión a la base de datos y las operaciones relacionadas con el backend.
 
 Estas tecnologías permiten crear un entorno realista y moderno, reflejando cómo las aplicaciones web pueden interactuar con diferentes lenguajes y servicios
+
+Para ejecutar este proyecto, se requiere tener las siguientes dependencias instaladas:
+
+
+📦 Requisitos
+
+Python 3.x
+
+Para ejecutar los microservicios en el backend. 
+Se recomienda utilizar Python 3.10 o superior, 
+ya que el proyecto fue desarrollado utilizando la versión Python 3.13.
+
+
+🚀 Instrucciones de Instalación
+
+Esa seccion esta pendiende se rellenara a lo ultimo
+
 
 ⚠️ Aviso Legal
 
