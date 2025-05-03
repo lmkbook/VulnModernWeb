@@ -87,3 +87,9 @@ El software y la documentación incluidos en este repositorio se proporcionan **
 El autor y los colaboradores de este proyecto **no serán responsables,** bajo ninguna circunstancia, por daños directos, indirectos, incidentales, especiales, ejemplares o consecuentes que surjan del uso, mal uso o imposibilidad de uso de este software.
 
 Al utilizar este repositorio, usted acepta expresamente esta exención de responsabilidad y **libera al autor de cualquier obligación legal o reclamo derivado de su uso.**
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo los términos de la **Licencia MIT**,  
+con una cláusula adicional que **prohíbe expresamente su uso comercial o con fines de lucro**.  
+Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
