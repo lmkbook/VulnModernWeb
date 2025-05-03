@@ -1,0 +1,13 @@
+Conexión a la Base de Datos
+Para conectarse correctamente a la base de datos, siga estos pasos:
+1. Diríjase al archivo database/connection.php.
+2. Edite las credenciales de conexión y reemplace los valores por los correspondientes a su propio usuario de base de datos 
+(host, usuario, contraseña, nombre de la base de datos, etc.).
+
+Nota importante:
+Antes de ejecutar la aplicación, asegúrese de que exista una base de datos llamada VMW (VulnModernWeb).
+Si ya tiene una base de datos con ese nombre, verifique que esté utilizando la correcta y que cuente con los permisos necesarios para su funcionamiento.
+
+Aviso legal:
+Los creadores de este repositorio no se hacen responsables por pérdida de información o configuraciones incorrectas. 
+El uso, configuración y manejo de la base de datos es responsabilidad del usuario.
