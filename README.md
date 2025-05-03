@@ -82,7 +82,8 @@ Esta aplicación contiene vulnerabilidades intencionales.
 
 **❌ Exención de Responsabilidad**
 
-El software y la documentación de este repositorio se proporcionan "tal cual", sin garantía de ningún tipo, expresa o implícita, incluyendo pero no limitado a garantías de comercialización o adecuación para un propósito particular.
-**El autor y los colaboradores de este proyecto no serán responsables en ningún caso por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o mal uso de este software.**
+El software y la documentación incluidos en este repositorio se proporcionan **"tal cual",** sin garantías de ningún tipo, expresas o implícitas, incluidas, entre otras, las garantías de **comerciabilidad, idoneidad para un propósito particular o no infracción.**
 
-El uso de este repositorio implica que usted acepta esta exención de responsabilidad y libera al autor de cualquier obligación legal derivada de su uso..
+El autor y los colaboradores de este proyecto **no serán responsables,** bajo ninguna circunstancia, por daños directos, indirectos, incidentales, especiales, ejemplares o consecuentes que surjan del uso, mal uso o imposibilidad de uso de este software.
+
+Al utilizar este repositorio, usted acepta expresamente esta exención de responsabilidad y **libera al autor de cualquier obligación legal o reclamo derivado de su uso.**
