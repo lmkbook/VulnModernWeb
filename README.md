@@ -90,7 +90,6 @@ Al utilizar este repositorio, usted acepta expresamente esta exención de respon
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo los términos de la **Licencia MIT**, 
-una licencia de código abierto ampliamente utilizada,
-con una cláusula adicional que **prohíbe expresamente su uso comercial o con fines de lucro**.  
+Este proyecto está licenciado bajo una licencia personalizada basada en la Licencia MIT.
+Incluye una cláusula adicional que prohíbe expresamente el uso comercial o con fines de lucro sin autorización previa y por escrito del autor 
 Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
