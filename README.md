@@ -91,5 +91,5 @@ Al utilizar este repositorio, usted acepta expresamente esta exención de respon
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo una licencia personalizada basada en la Licencia MIT.
-Incluye una cláusula adicional que prohíbe expresamente el uso comercial o con fines de lucro sin autorización previa y por escrito del autor 
+Incluye una **cláusula adicional que prohíbe expresamente el uso comercial o con fines de lucro** sin autorización previa y por escrito del autor 
 Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
