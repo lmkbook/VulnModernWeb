@@ -29,6 +29,11 @@
         <div>
             <button value="Enviar">Actualizar/Crear Tablas</button> <button value="Volver">Volver</button>
         </div>
+        <div>
+            <footer>
+                <?php include_once('../view/footer.php'); ?>
+            </footer>
+        </div>
     </div>
 </body>
 </html>
