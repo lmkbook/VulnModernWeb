@@ -7,10 +7,20 @@
 </head>
 <body>
     <div>
+        <header>
+            <?php include_once('../view/header.php'); ?>
+        </header>
+    </div>
+    <div>
         <div>
             <h1>
                 VulnMordenWeb
             </h1>
+        </div>
+        <div>
+            <footer>
+                <?php include_once('../view/footer.php'); ?>
+            </footer>
         </div>
     </div>
 </body>
