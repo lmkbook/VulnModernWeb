@@ -9,7 +9,7 @@
     <div>
         <div>
             <h1>
-                VulnMordenWeb
+                VulnModernWeb
             </h1>
         </div>
         <div>
