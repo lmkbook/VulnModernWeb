@@ -8,7 +8,7 @@
 <body>
     <div>
         <footer>
-            <p>Copyright &copy; 2025  VulnMordenWeb. Todos los derechos reservados.</p>
+            <p>Copyright &copy; 2025  VulnModernWeb. Todos los derechos reservados.</p>
         <footer>
     </div>
 </body>

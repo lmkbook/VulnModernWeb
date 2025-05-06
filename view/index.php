@@ -14,8 +14,17 @@
     <div>
         <div>
             <h1>
-                VulnMordenWeb
+                <img src="../imgs/Logo.png">
             </h1>
+        </div>
+        <div>
+            <form>
+                <label for="usr">User</label><br>
+                <input type="text" id="usr"><br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass"><br>
+                <input type="submit" value="INICIAR SESSION">
+            </form>
         </div>
         <div>
             <footer>
