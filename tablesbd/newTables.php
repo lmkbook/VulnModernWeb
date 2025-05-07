@@ -27,7 +27,7 @@
             </p>
         </div>
         <div>
-            <button value="Enviar">Actualizar/Crear Tablas</button> <button value="Volver">Volver</button>
+            <button value="Enviar" id="upnewtables">Actualizar/Crear Tablas</button> <a href="../view/index.php">Volver</a>
         </div>
         <div>
             <footer>
@@ -35,5 +35,6 @@
             </footer>
         </div>
     </div>
+    <script src="../js/newTables.js"></script>
 </body>
 </html>
