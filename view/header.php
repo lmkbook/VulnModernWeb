@@ -15,7 +15,7 @@ if(session_status() == PHP_SESSION_NONE){
         <header>
             <nav>
                 <?php if(isset($_SESSION['logued']) !== true): ?>
-                    <li>VulnModernWeb</li>
+                    <li> <a id="vuln" href="../tablesbd/newTables.php">VulnModernWeb</a></li>
                 <?php else: ?>
                     <li>Esto es cuando esta logueado</li>
                 <?php endif; ?>
