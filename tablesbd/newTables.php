@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/tablesbd/newTables.css">
     <title>Tablas</title>
 </head>
 <body>
@@ -27,10 +29,10 @@
             </p>
         </div>
         <div>
-            <button value="Enviar" id="upnewtables">Actualizar/Crear Tablas</button> <a href="../view/index.php">Volver</a>
+            <button value="Enviar" class="btn btn-primary" id="upnewtables">Actualizar/Crear Tablas</button> <a class="btn btn-primary" href="../view/index.php">Volver</a>
         </div>
         <div>
-            <footer>
+            <footer class="page-footer font-small bg-dark">
                 <?php include_once('../view/footer.php'); ?>
             </footer>
         </div>
