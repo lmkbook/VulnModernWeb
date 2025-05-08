@@ -1,5 +1,5 @@
 document.getElementById('upnewtables').addEventListener("click", function(e){
-    fetch('../model/upnewtable.php', {
+    fetch('../model/tablesbd/upnewtable.php', {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'

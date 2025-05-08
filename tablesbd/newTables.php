@@ -37,6 +37,6 @@
             </footer>
         </div>
     </div>
-    <script src="../js/newTables.js"></script>
+    <script src="../js/tablesbd/newTables.js"></script>
 </body>
 </html>

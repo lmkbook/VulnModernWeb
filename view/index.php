@@ -20,7 +20,7 @@
             </h1>
         </div>
         <div>
-            <form>
+            <form id="frm">
                 <label for="usr">User</label><br>
                 <input type="text" id="usr"><br><br>
                 <label for="pass">Password</label><br>
@@ -34,5 +34,6 @@
             </footer>
         </div>
     </div>
+    <script src="../js/view/index.js"></script>
 </body>
 </html>
