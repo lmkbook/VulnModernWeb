@@ -22,7 +22,7 @@
         <div>
             <form id="frm">
                 <label for="usr">User</label><br>
-                <input type="text" id="usr"><br><br>
+                <input type="text" id="usr" name="user"><br><br>
                 <label for="pass">Password</label><br>
                 <input type="password" id="pass"><br><br>
                 <input type="submit" class="btn btn-primary" value="INICIAR SESSION"><br><br>
