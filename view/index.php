@@ -1,3 +1,8 @@
+<?php
+session_start();
+// Contador para los ataques contra fuerza bruta
+$_SESSION['contador'] = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

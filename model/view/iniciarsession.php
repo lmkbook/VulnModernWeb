@@ -1,6 +1,11 @@
 <?php
+session_start();
 $data = json_decode(file_get_contents('php://input'), true);
 try{
+
+    function bloquearUSer(){
+        sleep(60);
+    }
 
     class ValidarDatos{
         
@@ -24,10 +29,21 @@ try{
             curl_setopt($startcurl, CURLOPT_RETURNTRANSFER, true);
             $response = curl_exec($startcurl);
             $json_response = json_decode($response, true);
-            $rpt = isset($json_response['fail']) ? $json_response['fail'] : $json_response['succes'];
-            echo json_encode([
-                'fail' => $rpt
-            ]);
+            if(isset($json_response['fail'])){
+                //Contador para la proteccion contra fuerza bruta
+                $_SESSION['contador'] += 1;
+                if($_SESSION['contador'] === 4){
+                    echo json_encode([
+                        'fail' => 'Vuelva a intentar despues de un minuto'
+                    ]);
+                    // Quitar el return y llamar la funcion para bloquear el usurio
+                    return true;
+                }
+                // Si el contador no ha llegado a 4 retorna la respuesta de flask
+                echo json_encode([
+                    'fail' => htmlspecialchars($json_response['fail'])
+                ]);
+            }
 
         }
     }
