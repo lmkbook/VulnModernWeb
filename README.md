@@ -63,8 +63,11 @@ ya que el proyecto fue desarrollado utilizando la versión **Python 3.13**.
 
 **🚀 Instrucciones de Instalación**
 
-Esa seccion esta pendiende se rellenara a lo ultimo
-
+1. Clona el repositorio
+Abre una terminal y ejecuta:
+```bash
+git clone https://github.com/lmkbook/VulnModernWeb.git
+```
 
 **⚠️ Aviso Legal**
 
