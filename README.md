@@ -63,11 +63,25 @@ ya que el proyecto fue desarrollado utilizando la versión **Python 3.13**.
 
 **🚀 Instrucciones de Instalación**
 
-1. Clona el repositorio
+1. Desplácese hacia el directorio de XAMPP
+
 Abre una terminal y ejecuta:
+
+🔧 En Linux:
+```bash
+cd /opt/lampp/htdocs/
+```
+
+**2. Clona el repositorio
+
 ```bash
 git clone https://github.com/lmkbook/VulnModernWeb.git
 ```
+**3. Accede a la carpeta del repositorio
+```bash
+cd VulnModernWeb/
+```
+
 
 **⚠️ Aviso Legal**
 
