@@ -8,7 +8,7 @@
    ░▒▓██▓▒░   ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█████████████▓▒░░▒▓████████▓▒░▒▓███████▓▒░  
 
 ```
-**#🔍 VMW - VulnModernWeb**
+#🔍 VMW - VulnModernWeb
 
 **VulnModernWeb (VMW)** es una plataforma de prueba diseñada para aprender, identificar y explotar vulnerabilidades modernas en aplicaciones web.
 El proyecto simula un entorno realista utilizando tecnologías actuales como fetch, API REST y microservicios en Python para el backend, con el objetivo de mejorar las habilidades de análisis y explotación de seguridad.
