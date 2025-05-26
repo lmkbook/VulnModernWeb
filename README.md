@@ -84,7 +84,33 @@ Una vez clonado el repositorio y estando dentro del directorio de XAMPP (htdocs)
 ```bash
 cd VulnModernWeb/
 ```
-*
+**4. Accede a la carpeta `python`**
+
+En esta carpeta se creará el entorno virtual y también se alojará el servidor Flask, encargado de la lógica del backend.
+
+```bash
+cd python/
+```
+
+**5. Instala un entorno virtual (por defecto: `virtualenv`)**
+
+Para aislar las dependencias del proyecto, se utilizará virtualenv como entorno virtual. 
+Sin embargo, puedes usar el entorno de tu preferencia (como venv, conda, poetry, etc.).
+
+```bash
+pip install virtualenv
+```
+**6. Crea el entorno virtual (por defecto: carpeta env)**
+
+Se creará una carpeta donde se alojarán todas las dependencias necesarias para el backend en Flask.
+El nombre por defecto de esta carpeta será env, pero puedes reemplazarlo por el nombre de tu preferencia.
+
+```bash
+virtualenv env
+```
+
+
+
 
 
 **⚠️ Aviso Legal**
@@ -109,7 +135,7 @@ El autor y los colaboradores de este proyecto **no serán responsables,** bajo n
 
 Al utilizar este repositorio, usted acepta expresamente esta exención de responsabilidad y **libera al autor de cualquier obligación legal o reclamo derivado de su uso.**
 
-## 📄 Licencia
+# 📄 Licencia
 
 Este proyecto está licenciado bajo una licencia personalizada basada en la Licencia MIT.
 Incluye una **cláusula adicional que prohíbe expresamente el uso comercial o con fines de lucro** sin autorización previa y por escrito del autor. 
