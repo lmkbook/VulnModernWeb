@@ -141,7 +141,7 @@ flask --app app run --debug
  Este parámetro es recomendado por la documentación oficial de Flask para especificar el archivo o módulo que contiene la aplicación.
 
  * app
-
+   
  Es el nombre del archivo donde está definida la lógica backend de Flask. En este caso, corresponde a app.py.
  ```
  python/
@@ -150,6 +150,22 @@ flask --app app run --debug
    ├── requeriments.txt
    ├── env
  ```
+ * run
+
+ Este parámetro se usa para iniciar la aplicación Flask.
+
+ * --debug (Opcional)
+
+ Si usas `--debug`, cualquier cambio que hagas en el backend se reflejará de inmediato sin necesidad de reiniciar el servidor, lo que facilita el desarrollo
+
+ * En producción, se recomienda usar:
+
+ ```bash
+ flask --app app run --no-debug
+ ```
+Donde --no-debug desactiva la recarga automática y otras funcionalidades de desarrollo para mayor seguridad.
+Importante: No se recomienda hacer cambios directamente en producción mientras el servidor está en modo --no-debug.
+
 
 **⚠️ Aviso Legal**
 
