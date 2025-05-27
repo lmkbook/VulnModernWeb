@@ -163,8 +163,9 @@ flask --app app run --debug
  ```bash
  flask --app app run --no-debug
  ```
-Donde --no-debug desactiva la recarga automática y otras funcionalidades de desarrollo para mayor seguridad.
-Importante: No se recomienda hacer cambios directamente en producción mientras el servidor está en modo --no-debug.
+Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de desarrollo para mayor seguridad.
+
+Importante: No se recomienda hacer cambios directamente en producción mientras el servidor está en modo `--no-debug`.
 
 
 **⚠️ Aviso Legal**
