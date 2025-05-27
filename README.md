@@ -100,7 +100,8 @@ Sin embargo, puedes usar el entorno de tu preferencia (como venv, conda, poetry,
 ```bash
 pip install virtualenv
 ```
-**6. Crea el entorno virtual (por defecto: carpeta env)**
+
+**6. Crea el entorno virtual (por defecto: carpeta `env`)**
 
 Se creará una carpeta donde se alojarán todas las dependencias necesarias para el backend en Flask.
 El nombre por defecto de esta carpeta será env, pero puedes reemplazarlo por el nombre de tu preferencia.
@@ -109,9 +110,46 @@ El nombre por defecto de esta carpeta será env, pero puedes reemplazarlo por el
 virtualenv env
 ```
 
+**7. Activar el entorno virtual**
 
+Activa el entorno virtual creado. Recuerda cambiar `env` por el nombre que hayas usado para la carpeta, en caso de que lo hayas modificado.
 
+En Linux:
 
+```bash
+source env/bin/activate
+```
+
+**8. Instalar dependencias necesarias**
+
+Una vez que el entorno virtual esté activado, procede a instalar las dependencias necesarias para el proyecto Flask:
+
+```bash
+pip install -r requeriments.txt
+```
+**9. Encender el servidor Flask**
+
+Procede a encender el servidor Flask para iniciar la aplicación backend:
+
+```bash
+flask --app app run --debug
+```
+**Explicación de parámetros para iniciar Flask**
+
+ * flask --app
+
+ Este parámetro es recomendado por la documentación oficial de Flask para especificar el archivo o módulo que contiene la aplicación.
+
+ * app
+
+ Es el nombre del archivo donde está definida la lógica backend de Flask. En este caso, corresponde a app.py.
+ ```
+ python/
+   ├── app.py
+   ├── connect.py
+   ├── requeriments.txt
+   ├── env
+ ```
 
 **⚠️ Aviso Legal**
 
