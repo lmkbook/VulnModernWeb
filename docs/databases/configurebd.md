@@ -44,7 +44,7 @@ nano /opt/lampp/htdocs/VulnModernWeb/database/connect.php
 ```bash
 nano /opt/lampp/htdocs/VulnModernWeb/database/connection.php
 ```
-Tanto connect.php como connection.php deben configurarse de la misma forma para establecer correctamente la conexión con la base de datos.
+Tanto `connect.php` como `connection.php` deben configurarse de la misma forma para establecer correctamente la conexión con la base de datos.
 
 En ambos archivos, asegúrate de editar las siguientes variables y reemplazarlas con tus credenciales:
 
