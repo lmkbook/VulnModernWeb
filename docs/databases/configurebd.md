@@ -19,4 +19,14 @@ También se detallan las diferencias entre cada una y su propósito dentro del s
 
 Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos, usuarios, contraseñas y configuraciones necesarias.
 
-# **Configuracion para connect.py**
+# **Configuración para connect.py**
+
+Primero editaremos el archivo `connect.py` para ello nos dirigiremos al directorio 
+
+```
+VulnModernWeb/
+  ├── database
+    ├── connect.php
+    ├── connection.php
+
+```
