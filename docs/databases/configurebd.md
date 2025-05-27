@@ -150,4 +150,4 @@ CREATE DATABASE IF NOT EXISTS VMW;
 
 Una vez terminada la configuración de la base de datos, para que la aplicación funcione correctamente debes iniciar los servidores de **Flask** y **PHP**.
 
-Para más información detallada sobre cómo hacerlo, consulta la sección correspondiente [`Iniciar Servidores`](../docs/Iniciar_Servidores/start.md) en la documentación, donde se explica paso a paso.
+Para más información detallada sobre cómo hacerlo, consulta la sección correspondiente [`Iniciar Servidores`](../../docs/Iniciar_Servidores/start.md) en la documentación, donde se explica paso a paso.
