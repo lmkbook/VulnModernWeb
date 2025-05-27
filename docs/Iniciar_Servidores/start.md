@@ -32,6 +32,11 @@ sudo /opt/lampp/./xampp start
 
 De esta manera, el entorno ya estará listo para utilizar la aplicación de forma efectiva.
 
+**✅ Ya puede acceder a:** 
+```
+http://127.0.0.1/VulnModernWeb/view/
+```
+
 # **⚠️ Advertencia**
 
 Si estás utilizando un servidor aislado o remoto, es posible que debas realizar configuraciones adicionales, como:
