@@ -6,7 +6,7 @@ Para que este aplicativo funcione correctamente, será necesario configurar manu
 
 Debes editar los siguientes 3 archivos para ajustar la conexión, credenciales u otros parámetros según tu entorno:
 
-  * connect.py [`database`](database\connection.php)
+  * connect.py [`connection`](database\connection.php)
 
   * connection.php
 
