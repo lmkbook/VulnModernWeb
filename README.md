@@ -186,11 +186,11 @@ Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de d
 
 **Importante:** No se recomienda hacer cambios directamente en producción mientras el servidor está en modo `--no-debug`.
 
-**📄 Documentación de bases de datos**
+**📄 Documentación extendida**
 
-Para consultar la documentación sobre las bases de datos y cómo configurarlas, por favor revisa el archivo [bd.md](docs/bd.md).
+Para consultar la documentación extendida, por favor revisa el archivo (docs/).
 
-Ahí encontrarás información más detallada sobre el manejo, configuración y uso de las bases de datos utilizadas en este proyecto.
+Ahí encontrarás información más detallada sobre el manejo, configuración y uso de este proyecto.
 
 # **⚠️ Aviso Legal**
 
