@@ -54,13 +54,31 @@ Para ejecutar este proyecto, se requiere tener las siguientes dependencias insta
 
 # **📦 Requisitos**
 
-**Python 3.x**
+Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu sistema:
 
-Para ejecutar los microservicios en el backend. 
-Se recomienda utilizar **Python 3.10** o superior, 
-ya que el proyecto fue desarrollado utilizando la versión **Python 3.13**.
+✅ Python 3.x
 
-# 🚀 Guía de Instalación para VulnModernWeb
+Necesario para ejecutar los microservicios en el backend desarrollados con Flask.
+
+ * Se recomienda utilizar Python 3.10 o superior.
+
+ * El proyecto fue desarrollado con Python 3.13 para asegurar compatibilidad.
+
+👉 Descárgalo desde: [https://www.python.org/downloads/](https://www.python.org/)
+
+✅ Git
+
+ * Utilizado para clonar y manejar el repositorio del proyecto.
+
+👉 Descárgalo desde:[ https://git-scm.com/](https://git-scm.com/)
+
+✅ XAMPP
+
+ * Requerido para levantar los servidores Apache y MySQL, necesarios para la parte de base de datos y servidor web del proyecto.
+
+👉 Descárgalo desde: [https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html)
+
+# **🛠 Instrucciones de Instalación**
 
 Esta guía te llevará paso a paso para configurar y ejecutar el proyecto VulnModernWeb, una aplicación web vulnerable diseñada para propósitos educativos y de pruebas de seguridad.
 
