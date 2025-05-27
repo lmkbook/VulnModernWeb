@@ -21,7 +21,7 @@ Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos
 
 # **Configuración para connect.py y connection.php**
 
-Primero editaremos el archivo `connect.py` o `connection.php` para ello nos dirigiremos al directorio 
+Primero editaremos el archivo `connect.php` o `connection.php` para ello nos dirigiremos al directorio 
 
 ```
 VulnModernWeb/
@@ -58,4 +58,37 @@ private $password = "";          // Tu contraseña de MySQL
 Para más información sobre las diferencias entre las bases de datos utilizadas en este proyecto, consulta la documentación en:
 [`diferencias`](../../docs/databases/explicacionbd.md)
 
+# **Configuracion de connec.py**
 
+ Luego editaremos el archivo `connect.py`  para ello nos dirigiremos al directorio 
+
+```
+VulnModernWeb/
+└── python/
+    ├── requeriments.txt
+    ├── app.py
+    └── connect.py
+```
+
+Linux:
+
+**🔎 Ubicación de las credenciales en connect.py**
+
+```bash
+nano /opt/lampp/htdocs/VulnModernWeb/python/connect.py
+```
+
+Encontrarás la sección de credenciales en el archivo connect.py de la siguiente manera:
+
+```
+cxn = mysql.connector.connect(user='root', password='', host='', database='VMW')
+```
+
+**✏️ Edición de Parámetros en connect.py**
+
+Deberás editar los parámetros user, password y host para que coincidan con los datos de acceso a tu base de datos.
+
+```
+cxn = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='VMW')
+```
+💡 Asegúrate de que estos datos coincidan con la configuración de tu entorno local (por ejemplo, XAMPP, MySQL local o servidor externo).
