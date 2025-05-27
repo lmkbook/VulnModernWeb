@@ -8,7 +8,7 @@
    ░▒▓██▓▒░   ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█████████████▓▒░░▒▓████████▓▒░▒▓███████▓▒░  
 
 ```
-# 🔍 VMW - VulnModernWeb
+# **🔍 VMW - VulnModernWeb**
 
 **VulnModernWeb (VMW)** es una plataforma de prueba diseñada para aprender, identificar y explotar vulnerabilidades modernas en aplicaciones web.
 El proyecto simula un entorno realista utilizando tecnologías actuales como fetch, API REST y microservicios en Python para el backend, con el objetivo de mejorar las habilidades de análisis y explotación de seguridad.
@@ -174,7 +174,7 @@ Para consultar la documentación sobre las bases de datos y cómo configurarlas,
 
 Ahí encontrarás información más detallada sobre el manejo, configuración y uso de las bases de datos utilizadas en este proyecto.
 
-**⚠️ Aviso Legal**
+# **⚠️ Aviso Legal**
 
 Este proyecto está destinado exclusivamente a fines educativos y de investigación en entornos controlados.
 El propósito de VulnModernWeb (VMW) es promover el aprendizaje responsable y ético sobre seguridad informática.
@@ -188,7 +188,7 @@ Esta aplicación contiene vulnerabilidades intencionales.
 Úselo únicamente en máquinas locales o entornos de laboratorio aislados y bajo su propia responsabilidad.
 
 
-**❌ Exención de Responsabilidad**
+# **❌ Exención de Responsabilidad**
 
 El software y la documentación incluidos en este repositorio se proporcionan **"tal cual",** sin garantías de ningún tipo, expresas o implícitas, incluidas, entre otras, las garantías de **comerciabilidad, idoneidad para un propósito particular o no infracción.**
 
@@ -196,7 +196,7 @@ El autor y los colaboradores de este proyecto **no serán responsables,** bajo n
 
 Al utilizar este repositorio, usted acepta expresamente esta exención de responsabilidad y **libera al autor de cualquier obligación legal o reclamo derivado de su uso.**
 
-# 📄 Licencia
+# **📄 Licencia**
 
 Este proyecto está licenciado bajo una licencia personalizada basada en la Licencia MIT.
 Incluye una **cláusula adicional que prohíbe expresamente el uso comercial o con fines de lucro** sin autorización previa y por escrito del autor. 
