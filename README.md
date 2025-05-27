@@ -52,7 +52,7 @@ Estas tecnologías permiten crear un entorno realista y moderno, reflejando cóm
 Para ejecutar este proyecto, se requiere tener las siguientes dependencias instaladas:
 
 
-**📦 Requisitos**
+# **📦 Requisitos**
 
 **Python 3.x**
 
@@ -60,8 +60,9 @@ Para ejecutar los microservicios en el backend.
 Se recomienda utilizar **Python 3.10** o superior, 
 ya que el proyecto fue desarrollado utilizando la versión **Python 3.13**.
 
+# 🚀 Guía de Instalación para VulnModernWeb
 
-**🚀 Instrucciones de Instalación**
+Esta guía te llevará paso a paso para configurar y ejecutar el proyecto VulnModernWeb, una aplicación web vulnerable diseñada para propósitos educativos y de pruebas de seguridad.
 
 **1. Desplácese hacia el directorio de XAMPP**
 
