@@ -165,8 +165,12 @@ flask --app app run --debug
  ```
 Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de desarrollo para mayor seguridad.
 
-Importante: No se recomienda hacer cambios directamente en producción mientras el servidor está en modo `--no-debug`.
+**Importante:** No se recomienda hacer cambios directamente en producción mientras el servidor está en modo `--no-debug`.
 
+**⚠️ Advertencia**
+
+Para consultar la documentacion de las bases de datos y configurarlas porfavor consulta [`bd.md`][./docs]
+Aqui se encontra informacion mas detallada sobre el manejo, configuracion y uso de las bases de datos que se va a utlizar
 
 **⚠️ Aviso Legal**
 
