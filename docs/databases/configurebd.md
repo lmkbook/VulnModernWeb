@@ -6,11 +6,11 @@ Para que este aplicativo funcione correctamente, será necesario configurar manu
 
 Debes editar los siguientes 3 archivos para ajustar la conexión, credenciales u otros parámetros según tu entorno:
 
-  * connect.py [`VulnModernWeb`](../../database/connect.php)
+  * connect.py [`connect`](../../python/connect.py)
 
-  * connection.php
+  * connection.php [`connection`](../../database/connection.php)
 
-  * connect.php
+  * connect.php [`connect`](../../database/connect.php)
 
     📁 Estos archivos se encuentran en la carpeta correspondiente dentro del proyecto (especifica la ruta si es necesario, por ejemplo: docs/bd/ o database/).
 
