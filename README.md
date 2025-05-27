@@ -169,7 +169,7 @@ Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de d
 
 **📄 Documentación de bases de datos**
 
-Para consultar la documentación sobre las bases de datos y cómo configurarlas, por favor revisa el archivo bd.md.
+Para consultar la documentación sobre las bases de datos y cómo configurarlas, por favor revisa el archivo [bd.md](docs/bd.md).
 
 Ahí encontrarás información más detallada sobre el manejo, configuración y uso de las bases de datos utilizadas en este proyecto.
 
