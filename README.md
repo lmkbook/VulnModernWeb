@@ -188,7 +188,7 @@ Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de d
 
 **📄 Documentación extendida**
 
-Para consultar la documentación extendida, por favor revisa el archivo (docs/).
+Para consultar la documentación extendida, por favor revisa el archivo [docs/].
 
 Ahí encontrarás información más detallada sobre el manejo, configuración y uso de este proyecto.
 
