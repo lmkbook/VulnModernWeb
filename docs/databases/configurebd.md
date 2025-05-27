@@ -12,6 +12,9 @@ Debes editar los siguientes 3 archivos para ajustar la conexión, credenciales u
 
   * connect.php [`connect`](../../database/connect.php)
 
-📁 Estos archivos se encuentran en la carpeta correspondiente dentro del proyecto ([`explicacion`](../../docs/databases/explicacionbd.md)).
+**📁 Estos archivos se encuentran en la carpeta correspondiente dentro del proyecto.**
+
+Se recomienda consultar el siguiente archivo, ya que contiene información específica sobre las bases de datos que se van a utilizar.
+También se detallan las diferencias entre cada una y su propósito dentro del sistema.([`explicacion`](../../docs/databases/explicacionbd.md)).
 
 Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos, usuarios, contraseñas y configuraciones necesarias.
