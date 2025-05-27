@@ -42,4 +42,4 @@ Si estás utilizando un servidor aislado o remoto, es posible que debas realizar
 
   * Configurar el entorno para permitir conexiones externas
 
-Esto es necesario para asegurar que la aplicación funcione correctamente fuera de un entorno local..
+Esto es necesario para asegurar que la aplicación funcione correctamente fuera de un entorno local.
