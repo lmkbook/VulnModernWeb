@@ -74,11 +74,13 @@ Linux:
 
 **🔎 Ubicación de las credenciales en connect.py**
 
+Para editar las credenciales de conexión, abre el archivo connect.py:
+
 ```bash
 nano /opt/lampp/htdocs/VulnModernWeb/python/connect.py
 ```
 
-Encontrarás la sección de credenciales en el archivo connect.py de la siguiente manera:
+Dentro del archivo, encontrarás una línea como esta:
 
 ```
 cxn = mysql.connector.connect(user='root', password='', host='', database='VMW')
@@ -86,7 +88,7 @@ cxn = mysql.connector.connect(user='root', password='', host='', database='VMW')
 
 **✏️ Edición de Parámetros en connect.py**
 
-Deberás editar los parámetros user, password y host para que coincidan con los datos de acceso a tu base de datos.
+Deberás modificar los valores de user, password y host según los datos de tu entorno local o de desarrollo:
 
 ```
 cxn = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='VMW')
