@@ -144,4 +144,10 @@ Una vez que hayas accedido correctamente al cliente de MySQL, ya sea desde XAMPP
 ```bash
 CREATE DATABASE IF NOT EXISTS VMW;
 ```
-📌 Asegúrate de que el nombre VMW coincida con el que usaste en los archivos de configuración ([`connect.py`](../../python/connect.py), [`connect.php`](../../database/connect.php), [`connection.php`](../../database/connection.php).
+📌 Asegúrate de que el nombre VMW coincida con el que usaste en los archivos de configuración ([`connect.py`](../../python/connect.py), [`connect.php`](../../database/connect.php) y [`connection.php`](../../database/connection.php).
+
+**🔔 RECOMENDACIÓN**
+
+Una vez terminada la configuración de la base de datos, para que la aplicación funcione correctamente debes iniciar los servidores de **Flask** y **PHP**.
+
+Para más información detallada sobre cómo hacerlo, consulta la sección correspondiente [`Iniciar Servidores`](../docs/Iniciar_Servidores/start.md) en la documentación, donde se explica paso a paso.
