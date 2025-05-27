@@ -58,7 +58,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 
 ✅ Python 3.x
 
-Necesario para ejecutar los microservicios en el backend desarrollados con Flask.
+ * Necesario para ejecutar los microservicios en el backend desarrollados con Flask.
 
  * Se recomienda utilizar Python 3.10 o superior.
 
