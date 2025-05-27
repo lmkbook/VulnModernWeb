@@ -94,3 +94,54 @@ Deberás modificar los valores de user, password y host según los datos de tu e
 cxn = mysql.connector.connect(user='root', password='', host='127.0.0.1', database='VMW')
 ```
 💡 Asegúrate de que estos datos coincidan con la configuración de tu entorno local (por ejemplo, XAMPP, MySQL local o servidor externo).
+
+# **🗄️ Creación de la Base de Datos**
+
+Para completar la configuración del proyecto, es necesario crear la base de datos que utilizará la aplicación.
+
+Puedes hacerlo utilizando phpMyAdmin (si estás trabajando con XAMPP) o desde la terminal de MySQL.
+
+**✅ Opción 1: phpMyAdmin**
+
+   * Accede a http://localhost/phpmyadmin
+
+   * Haz clic en "Nueva"
+
+   * Asigna el nombre: VMW
+
+   * (Opcional) Selecciona el cotejamiento: utf8_general_ci
+
+   * Haz clic en "Crear"
+
+**⚠️ Nota:**
+
+Si no estás utilizando un entorno local como XAMPP, accede al phpMyAdmin de tu servidor aislado (ya sea en un servidor local, virtual o en la nube) y crea la base de datos de la misma forma, asegurándote de que el nombre coincida con el configurado en la aplicación (VMW por defecto).
+
+**✅ Opción 2: Terminal MySQL**
+
+**Si estás usando XAMPP en Linux:**
+
+Abre una terminal y ejecuta:
+
+```bash
+/opt/lampp/bin/mysql -u root -h 127.0.0.1 -p
+```
+Este comando utiliza el cliente MySQL incluido en XAMPP.
+
+**Si estás usando un servidor MySQL independiente (no XAMPP):**
+
+Ejecuta el siguiente comando desde cualquier terminal donde tengas instalado MySQL:
+Si esta usuando un servidor mysql ejecute
+
+```bash
+mysql -u root -h 127.0.0.1 -p
+```
+
+Cambia 127.0.0.1 por la IP o nombre de host de tu servidor si no estás trabajando en local.
+
+Una vez que hayas accedido correctamente al cliente de MySQL, ya sea desde XAMPP o desde un servidor externo, ejecuta el siguiente comando para crear la base de datos:
+
+```bash
+CREATE DATABASE IF NOT EXISTS VMW;
+```
+📌 Asegúrate de que el nombre VMW coincida con el que usaste en los archivos de configuración ([`connect.py`](../../python/connect.py), [`connect.php`](../../database/connect.php), [`connection.php`](../../database/connection.php).
