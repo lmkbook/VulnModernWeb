@@ -28,5 +28,26 @@ VulnModernWeb/
 └── database/
     ├── connect.php
     └── connection.php
+```
+
+⚠️ Nota: Si no estás utilizando XAMPP o estás trabajando en un servidor local aislado, 
+deberás editar el archivo manualmente de acuerdo a la configuración específica de tu entorno
+(por ejemplo: rutas, credenciales, puertos o nombre de host).
+
+Linux:
+
+```bash
+nano /opt/lampp/htdocs/VulnModernWeb/database/connect.php
+```
+
+Dentro del archivo, edita las siguientes variables y reemplázalas con las credenciales correspondientes a tu entorno de base de datos:
 
 ```
+private $host = "localhost";     // Cambiar si usas otro host
+private $user = "root";          // Tu usuario de MySQL
+private $password = "";          // Tu contraseña de MySQL
+```
+
+
+
+
