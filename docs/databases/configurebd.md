@@ -25,8 +25,8 @@ Primero editaremos el archivo `connect.py` para ello nos dirigiremos al director
 
 ```
 VulnModernWeb/
-  ├── database
+└── database/
     ├── connect.php
-    ├── connection.php
+    └── connection.php
 
 ```
