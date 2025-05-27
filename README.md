@@ -186,11 +186,19 @@ Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de d
 
 **Importante:** No se recomienda hacer cambios directamente en producción mientras el servidor está en modo `--no-debug`.
 
-**📄 Documentación extendida**
+**📄 Documentación Extendida**
 
-Para consultar la documentación extendida, por favor revisa el archivo [docs/].
+Para consultar la documentación más completa sobre este proyecto, revisa el contenido del directorio [`docs\`](docs/).
 
-Ahí encontrarás información más detallada sobre el manejo, configuración y uso de este proyecto.
+Ahí encontrarás información detallada sobre el manejo, configuración, y uso del sistema, incluyendo temas como:
+
+   * Configuración de bases de datos
+
+   * Arquitectura del proyecto
+
+   * Uso de herramientas adicionales
+
+   * Buenas prácticas de desarrollo
 
 # **⚠️ Aviso Legal**
 
