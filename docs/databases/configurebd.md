@@ -18,3 +18,5 @@ Se recomienda consultar el siguiente archivo, ya que contiene información espec
 También se detallan las diferencias entre cada una y su propósito dentro del sistema.([`explicacion`](../../docs/databases/explicacionbd.md)).
 
 Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos, usuarios, contraseñas y configuraciones necesarias.
+
+# **Configuracion para connect.py**
