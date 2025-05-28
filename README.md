@@ -196,7 +196,7 @@ Donde `--no-debug` desactiva la recarga automática y otras funcionalidades de d
 
 **BASE DE DATOS OBLIGATORIA**
 
-Para configurar correctamente la base de datos y editar los archivos sin inconvenientes, por favor consulta la documentación [`configurebd`](docs/databases/configurebd.md).
+Para configurar correctamente la base de datos y editar los archivos sin inconvenientes, por favor consulta la documentación [`docs/database/configurebd`](docs/databases/configurebd.md).
 Ahí encontrarás toda la información necesaria para asegurar que la configuración sea exitosa.
 
 
