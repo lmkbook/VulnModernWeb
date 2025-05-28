@@ -20,7 +20,7 @@ Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos
 
 # **Configuración para config.php**
 
-Primero editaremos el archivo `config.php` para ello nos dirigiremos al directorio [`database`](database)
+Primero editaremos el archivo `config.php` para ello nos dirigiremos al directorio [`database`](../database)
 
 ```
 VulnModernWeb/
