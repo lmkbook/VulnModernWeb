@@ -138,9 +138,18 @@ Si no estás utilizando un entorno local como XAMPP, accede al phpMyAdmin de tu 
 
 Abre una terminal y ejecuta:
 
+Linux:
+
 ```bash
 /opt/lampp/bin/mysql -u root -h 127.0.0.1 -p
 ```
+
+Windows:
+
+```bash
+C:\xampp\mysql\bin\mysql -u rotts -h 127.0.0.1 -p
+````
+
 Este comando utiliza el cliente MySQL incluido en XAMPP.
 
 **Si estás usando un servidor MySQL independiente (no XAMPP):**
