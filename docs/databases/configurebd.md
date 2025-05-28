@@ -168,7 +168,7 @@ Una vez que hayas accedido correctamente al cliente de MySQL, ya sea desde XAMPP
 ```bash
 CREATE DATABASE IF NOT EXISTS VMW;
 ```
-📌 Asegúrate de que el nombre VMW coincida con el que usaste en los archivos de configuración ([`connect.py`](../../python/connect.py) y [`connection.php`](../../database/config.php).
+📌 Asegúrate de que el nombre VMW coincida con el que usaste en los archivos de configuración ([`connect.py`](../../python/connect.py) y [`config.php`](../../database/config.php).
 
 **🔔 RECOMENDACIÓN**
 
