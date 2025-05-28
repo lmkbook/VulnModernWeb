@@ -134,7 +134,7 @@ Si no estás utilizando un entorno local como XAMPP, accede al phpMyAdmin de tu 
 
 **✅ Opción 2: Terminal MySQL**
 
-**Si estás usando XAMPP en Linux:**
+**Si estás usando XAMPP**
 
 Abre una terminal y ejecuta:
 
