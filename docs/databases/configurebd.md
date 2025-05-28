@@ -85,10 +85,16 @@ Linux:
 
 Para editar las credenciales de conexión, abre el archivo connect.py:
 
+Linux:
+
 ```bash
 nano /opt/lampp/htdocs/VulnModernWeb/python/connect.py
 ```
+Windows:
 
+```bash
+notepad C:\xampp\htdocs\VulnModernWeb\python\connect.py
+```
 Dentro del archivo, encontrarás una línea como esta:
 
 ```
