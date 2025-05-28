@@ -40,6 +40,11 @@ Linux:
 ```bash
 nano /opt/lampp/htdocs/VulnModernWeb/database/config.php
 ```
+Windows:
+
+```bash
+notepad C:\xampp\htdocs\VulnModernWeb\database\config.php
+```
 
 Asegúrate de editar las siguientes variables y reemplazarlas con tus credenciales:
 
