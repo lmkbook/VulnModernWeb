@@ -20,7 +20,7 @@ Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos
 
 # **Configuración para config.php**
 
-Primero editaremos el archivo `connect.php` o `connection.php` para ello nos dirigiremos al directorio 
+Primero editaremos el archivo `config.php` para ello nos dirigiremos al directorio 
 
 ```
 VulnModernWeb/
@@ -41,9 +41,7 @@ Linux:
 nano /opt/lampp/htdocs/VulnModernWeb/database/config.php
 ```
 
-Tanto `connect.php` como `connection.php` deben configurarse de la misma forma para establecer correctamente la conexión con la base de datos.
-
-En ambos archivos, asegúrate de editar las siguientes variables y reemplazarlas con tus credenciales:
+Asegúrate de editar las siguientes variables y reemplazarlas con tus credenciales:
 
 ```
 $GLOBALS['host'] = '127.0.0.1'; // Cambiar si usuas otro Host MySQL
@@ -54,6 +52,7 @@ $GLOBALS['password'] = ''; // Tu contraseña de MySQL
 
 $GLOBALS['bd'] = 'VMW'; // Name base de datos          
 ```
+
 **📄 ¿Diferencias entre las bases de datos?**
 
 Para más información sobre las diferencias entre las bases de datos utilizadas en este proyecto, consulta la documentación en:
