@@ -147,7 +147,7 @@ Linux:
 Windows:
 
 ```bash
-C:\xampp\mysql\bin\mysql -u rotts -h 127.0.0.1 -p
+C:\xampp\mysql\bin\mysql -u root -h 127.0.0.1 -p
 ````
 
 Este comando utiliza el cliente MySQL incluido en XAMPP.
