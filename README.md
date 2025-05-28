@@ -136,10 +136,15 @@ virtualenv env
 
 Activa el entorno virtual creado. Recuerda cambiar `env` por el nombre que hayas usado para la carpeta, en caso de que lo hayas modificado.
 
-En Linux:
+🔧 En Linux:
 
 ```bash
 source env/bin/activate
+```
+🔧 En windows:
+
+```bash
+env\Scripts\activate
 ```
 
 **8. Instalar dependencias necesarias**
