@@ -32,7 +32,6 @@
                 );
 
             }catch(PDOException $e){
-                echo $user;
                 echo htmlspecialchars(trim("Error con la conexion"));
                 die(error_log("Error con la base de datos: " . $e->getMessage()));
             }
