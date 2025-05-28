@@ -2,7 +2,7 @@
 
 /*
 
-Variables globales para las credenciales a la base de datos
+Variables globales para las credenciales de la bd
 
 */
 
