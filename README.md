@@ -90,7 +90,11 @@ Abre una terminal y ejecuta:
 ```bash
 cd /opt/lampp/htdocs/
 ```
-
+🔧 En Windows:
+```bash
+ bhgub
+cd C:\xampp\htdocs
+```
 **2. Clona el repositorio**
 
 ```bash
