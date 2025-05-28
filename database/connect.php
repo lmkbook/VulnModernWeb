@@ -1,20 +1,27 @@
 <?php
-
+    require_once('../../database/config.php');
+    $host = $GLOBALS['host'];
+    $user = $GLOBALS['user'];
+    $password = $GLOBALS['password'];
+    $bd = $GLOBALS['bd'];
+    /// Inicia el patron de singleteon
     class Connect{
 
         private static $instance = null; //Instancia para garantizar una unica conexion               
         private $connection;            
-        private $host = '127.0.0.1';            
-        private $user = 'root';            
-        private $password = '';            
-        private $db = 'VMW';
-        
+
         private function __construct(){ //metodo constructor privado
             try{
+
+                global $host;
+                global $user;
+                global $password;
+                global $bd;
+
                 $this->connection = new PDO(
-                    "mysql:host=$this->host;dbname=$this->db",
-                    $this->user,
-                    $this->password,
+                    "mysql:host=$host;dbname=$bd",
+                    $user,
+                    $password,
                     [
                         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8", //Codificacion utf8 por defecto
                         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, //Capturar los errores
@@ -25,6 +32,7 @@
                 );
 
             }catch(PDOException $e){
+                echo $user;
                 echo htmlspecialchars(trim("Error con la conexion"));
                 die(error_log("Error con la base de datos: " . $e->getMessage()));
             }
@@ -37,5 +45,6 @@
             return self::$instance->connection;
         }
     }
+
 
 ?>
