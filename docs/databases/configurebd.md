@@ -4,7 +4,7 @@
 
 Para que este aplicativo funcione correctamente, será necesario configurar manualmente algunos archivos relacionados con las bases de datos.
 
-Debes editar los siguientes 3 archivos para ajustar la conexión, credenciales u otros parámetros según tu entorno:
+Debes editar los siguientes 2 archivos para ajustar la conexión, credenciales u otros parámetros según tu entorno:
 
   * connect.py [`connect`](../../python/connect.py)
 
@@ -18,13 +18,14 @@ También se detallan las diferencias entre cada una y su propósito dentro del s
 
 Asegúrate de revisar y adaptar cada archivo según los nombres de base de datos, usuarios, contraseñas y configuraciones necesarias.
 
-# **Configuración para connect.py y connection.php**
+# **Configuración para config.php**
 
 Primero editaremos el archivo `connect.php` o `connection.php` para ello nos dirigiremos al directorio 
 
 ```
 VulnModernWeb/
 └── database/
+    ├── config.php
     ├── connect.php
     └── connection.php
 ```
@@ -37,20 +38,21 @@ deberás editar el archivo manualmente de acuerdo a la configuración específic
 Linux:
 
 ```bash
-nano /opt/lampp/htdocs/VulnModernWeb/database/connect.php
+nano /opt/lampp/htdocs/VulnModernWeb/database/config.php
 ```
 
-```bash
-nano /opt/lampp/htdocs/VulnModernWeb/database/connection.php
-```
 Tanto `connect.php` como `connection.php` deben configurarse de la misma forma para establecer correctamente la conexión con la base de datos.
 
 En ambos archivos, asegúrate de editar las siguientes variables y reemplazarlas con tus credenciales:
 
 ```
-private $host = "localhost";     // Cambiar si usas otro host
-private $user = "root";          // Tu usuario de MySQL
-private $password = "";          // Tu contraseña de MySQL
+$GLOBALS['host'] = '127.0.0.1'; // Cambiar si usuas otro Host MySQL
+
+$GLOBALS['user'] = 'root'; // Tu usuario de MySQL
+
+$GLOBALS['password'] = ''; // Tu contraseña de MySQL
+
+$GLOBALS['bd'] = 'VMW'; // Name base de datos          
 ```
 **📄 ¿Diferencias entre las bases de datos?**
 
