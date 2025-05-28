@@ -50,8 +50,12 @@ $GLOBALS['user'] = 'root'; // Tu usuario de MySQL
 
 $GLOBALS['password'] = ''; // Tu contraseña de MySQL
 
-$GLOBALS['bd'] = 'VMW'; // Name base de datos          
+$GLOBALS['bd'] = 'VMW'; // Name base de datos
+
 ```
+**Nota:**
+Si desea utilizar otra base de datos, también deberá cambiar el nombre de la base de datos tanto en `config.php` como en `connect.py`.
+De lo contrario, déjelo por defecto.
 
 **📄 ¿Diferencias entre las bases de datos?**
 
