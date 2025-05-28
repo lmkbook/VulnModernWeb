@@ -8,9 +8,8 @@ Debes editar los siguientes 3 archivos para ajustar la conexión, credenciales u
 
   * connect.py [`connect`](../../python/connect.py)
 
-  * connection.php [`connection`](../../database/connection.php)
+  * config.php [`connection`](../../database/config.php)
 
-  * connect.php [`connect`](../../database/connect.php)
 
 **📁 Estos archivos se encuentran en la carpeta correspondiente dentro del proyecto.**
 
